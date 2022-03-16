@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    }
+    
+    body{
+        font-family: arial;
+    }
+    
+    .form-login-register{
+     width: 800px;
+     height: 240px;
+     background:gainsboro;
+     margin:auto; 
+     margin-top: 40px;
+     padding:40px 30px; 
+     color: white;
+    }
+    .form-login-register-2{
+        width: 800px;
+        height: 580px;
+        background:gainsboro;
+        margin:auto; 
+        margin-top: 40px;
+        padding:40px 30px; 
+        color: white;
+    
+       }
+
+    .control{
+        width: 100%;
+        border: 1px solid #017bab;
+        margin-bottom: 15px;
+        padding: 11px 10px;
+        background:white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .boton{
+        width: 100%;
+        height: 40px;
+        background: #017bab;
+        border:none;
+        color:white;
+        margin-bottom: 16px;
+    }
+
+    @media (min-width: 0){
+        .form-login-register{
+            width: 190px;
+            height: 1   40px;
+            background:gainsboro;
+            margin:auto; 
+            margin-top: 40px;
+            padding:40px 30px; 
+            color: white;
+           }
+           .form-login-register-2{
+            width: 190px;
+            height: 580px;
+            background:gainsboro;
+            margin:auto; 
+            margin-top: 40px;
+            padding:40px 30px; 
+            color: white;
+           }
+    }
+    
+@media (min-width: 361px){
+    .form-login-register{
+        width: 390px;
+        height: 580px;
+        background:gainsboro;
+        margin:auto; 
+        margin-top: 40px;
+        padding:40px 30px; 
+        color: white;
+       }
+       .form-login-register-2{
+        width: 390px;
+        height: 140px;
+        background:gainsboro;
+        margin:auto; 
+        margin-top: 40px;
+        padding:40px 30px; 
+        color: white;
+       }
+}
+
+
+@media (min-width: 769px){
+    .form-login-register{
+        width: 800px;
+        height: 240px;
+        background:gainsboro;
+        margin:auto; 
+        margin-top: 40px;
+        padding:40px 30px; 
+        color: white;
+       }
+       .form-login-register-2{
+        width: 800px;
+        height: 580px;
+        background:gainsboro;
+        margin:auto; 
+        margin-top: 40px;
+        padding:40px 30px; 
+        color: white;
+       }
+    .boton{
+        background: #017bab;
+        transition: all 2s;
+    }
+    .boton:hover{
+        background: #0022AA;
+    }
+   footer{
+       display: flex;
+       padding: 150px 10px;
+   
+   }
+   footer section i:hover{
+    color: #0022AA;
+   }
+}
+
+main form label b{
+    color:black;
+    padding: 30px;
+    margin: 10px;
+}
+
+.calendario{
+    width: 30%;
+    height: 30px;
+    background: #37bef0;
+    border-radius: 15px;
+    color:black;
+    margin-bottom: 16px;
+}
+
+main form h4{
+    color:black;
+    padding: 5px;
+    margin: 10px;
+}
+
+div label{
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.foto{
+    color:black;
+}
+
+main{
+    background:gainsboro;
+}
